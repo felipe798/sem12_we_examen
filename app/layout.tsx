@@ -6,7 +6,9 @@ export const metadata = {
   description: 'Sistema de gestión para farmacia',
 }
 
-export default function RootLayout({ children }) {
+import { ReactNode } from 'react';
+
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="es">
       <body>
